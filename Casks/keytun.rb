@@ -3,7 +3,7 @@ cask "keytun" do
   name "keytun"
   desc "Lightweight CLI tool that lets remote colleagues type into your terminal over a screenshare"
   homepage "https://github.com/gboston/keytun"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "keytun" do
   on_macos do
     on_intel do
       url "https://github.com/gboston/keytun/releases/download/v#{version}/keytun_#{version}_darwin_amd64.tar.gz"
-      sha256 "04e4b10b3967a2eee6949997548bbbdd72c2b944a6336ade260242ef72daec98"
+      sha256 "0d7094001e8931c0cd3a21c0f86d61729ddb1bd9aec1dc081385c4ac4d757ef8"
     end
     on_arm do
       url "https://github.com/gboston/keytun/releases/download/v#{version}/keytun_#{version}_darwin_arm64.tar.gz"
-      sha256 "7349d11e0204ad1d9c82e59478c7c51659dad113c9319bac53e9416a9c664ad0"
+      sha256 "e121615590738279a83d1e88856b8d0d04d0931f4416e3ec00d23a2772d842e3"
     end
   end
 
